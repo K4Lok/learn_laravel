@@ -50,7 +50,16 @@ To see if it works or not, run this command to see if the website is accessible 
 Install the Laravel Install can help you not to download the framework every time you create a laravel project.
 > `composer global require laravel/installer`
 
+You will find out command not found: laravel if you directly tpye the command, you have to type ~/.composer/vendor/bin/laravel.
+
+To reduce the work, by adding the path of laravel to the $PATH in ~/.zshrc
+
+Get the path: `pwd`
+> `vim ~/.zshrc`, `sudo vim /etc/paths`. add the path in both of the file.
+
 Then by using this command, you can create a laravel project without downloading from the internet.
 > `laravel new example-app`
 
 And run it by `php artisan serve`.
+
+---
