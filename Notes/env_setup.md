@@ -10,7 +10,7 @@ If not, install it with homebrew:
 
 > `brew install php`
 
----
+___
 ### Install Composer
 You can also check out the [official webpage](https://getcomposer.org/download/) for more details info.
 
@@ -29,7 +29,7 @@ After that, move the downloaded file (composer.phar) to your path. Therefore we 
 To check whether successfully add in to the path or not:
 > `composer --version`
 
----
+___
 ### Setup laravel project via composer
 [Official tutorial](https://laravel.com/docs/8.x#getting-started-on-macos).
 Create a new laravel project by using composer.
@@ -39,7 +39,7 @@ To see if it works or not, run this command to see if the website is accessible 
 > `cd example-app`
 > `php artisan serve`
 
----
+___
 ### Install Laravel Installer
 Install the Laravel Install can help you not to download the framework every time you create a laravel project.
 > `composer global require laravel/installer`
@@ -56,4 +56,4 @@ Then by using this command, you can create a laravel project without downloading
 
 And run it by `php artisan serve`.
 
----
+___
