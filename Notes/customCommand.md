@@ -2,6 +2,8 @@
 
 Go to the offical website [(console)](https://laravel.com/docs/8.x/artisan) for more details.
 
+___
+
 ## Generating Commands
 With build-in artisan command, it can create a new command class in the `app/Console/Commands` directory.
 
@@ -25,6 +27,8 @@ With build-in artisan command, it can create a new command class in the `app/Con
 >     //...
 >  }
 > ```
+
+___
 
 ## Use the Commands
 
