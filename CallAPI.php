@@ -64,7 +64,7 @@ class CallAPI extends Command
                 print_r($mms_id);
                 print_r("\n");
 
-                $url = "https://api-ap.hosted.exlibrisgroup.com/almaws/v1/bibs/" . $mms_id ."?view=full&expand=None&format=json&apikey=l8xx46d97a514f50458fb5d433da26ac4209";
+                $url = "https://apixxxx/" . $mms_id ."xxxxxxxxxxxxxxxxxxxxxxxxx";
                 
                 //Request data from the API (Web)
                 $ch = curl_init();
